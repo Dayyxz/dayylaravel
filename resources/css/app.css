@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Navbar */
+
+.bg-navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+@media screen and (min-width: 1024px) {
+    .p-hero {
+        padding-top: 0px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .p-hero {
+        padding-top: 100px;
+    }
+}
+
+.txt {
+    color: #d0dfff;
+}
+
+.txt2 {
+    color: #a3b3bc;
+}
+
+.bg {
+    background-color: #0d1117;
+}
+
+.backdrop-blur {
+    backdrop-filter: blur(8px);
+}
+
+
+.img-cta::after {
+    content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: .7;
+}
